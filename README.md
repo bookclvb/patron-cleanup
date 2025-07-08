@@ -18,4 +18,18 @@ Tools for cleaning up patron data before loading into Sierra.
 ## Current issues: 
 Mostly related to manual edits still needed:
 - Removing the first row of data upon outputting - doesn't work.
-- Need to find a more elegant way to rename columns and delete top 2. 
+- Need to find a more elegant way to rename columns and delete top 2.
+
+## **Files containing personally identifiable data are listed in this repo's .gitignore**
+```
+# These files contain personal data not to be shared #
+######################################################
+students.xlsx
+students.json
+students-output.json
+students-output.csv
+employees.xlsx
+employees.json
+employees-output.json
+employees-output.csv
+```
