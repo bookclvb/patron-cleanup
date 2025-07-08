@@ -2,7 +2,7 @@
 Tools for cleaning up patron data before loading into Sierra.
 ***Made with a lot of assistance from Copilot*** 
 
-## What the student script does:
+## What the 'students.py' script does:
 - Read file 'students.xslx' and export to JSON format
 - Join first and last name in new column, delete old columns
 - empty column '44', add 'x' column
@@ -16,5 +16,6 @@ Tools for cleaning up patron data before loading into Sierra.
 - Write to a new CSV file 'students-output.csv'
 
 ## Current issues: 
-- Removing the first row of data when outputting doesn't work.
+Mostly related to manual edits still needed:
+- Removing the first row of data upon outputting - doesn't work.
 - Need to find a more elegant way to rename columns and delete top 2. 
