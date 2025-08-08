@@ -2,6 +2,13 @@
 Tools for cleaning up patron data before loading into Sierra.
 ***Made with a lot of assistance from Copilot*** 
 
+# How to use
+- make sure you have a virtual environment with pandas and openpyxl installed
+- drop in students file from workday and rename it 'students.xlsx'
+- run students.py
+- if that works properly, open students-output.csv and just check it against students.xslx to make sure it looks good (eg same # of entries, things in the right order...)
+- import into sierra!
+
 ## What the 'students.py' script does:
 - Read file 'students.xslx' and export to JSON format
 - Join first and last name in new column, delete old columns
