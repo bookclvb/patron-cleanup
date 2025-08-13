@@ -1,0 +1,12 @@
+{
+  "critic": 1,
+  "lecturer": 1,
+  "professor": 1,
+  "director": 15,
+  "vice president": 15,
+  "curator": 11,
+  "coordinator": 3,
+  "technician": 3,
+  "specialist": 3,
+  "continuing education instructor": 7
+}
